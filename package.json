@@ -26,7 +26,8 @@
     "test:live": "node tests/test-live-sessions-inmem.mjs",
     "test:certificates": "node tests/test-certificate-generation-inmem.mjs",
     "test:email": "node scripts/test-email.mjs",
-    "test:otp": "node tests/test-otp-flow-inmem.mjs"
+    "test:otp": "node tests/test-otp-flow-inmem.mjs",
+    "test:seed": "node tests/test-seed-inmem.mjs"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

@@ -1,6 +1,1600 @@
-
-
+/**
+ * COURSES_SEED - Integrated Course Catalog
+ * Contains all 37 courses from the official Eduzyra program catalog
+ * plus 12 production-grade track courses (49 total).
+ */
 export const COURSES_SEED = [
+  {
+    "code": "EDU-SWD-01",
+    "title": "Full Stack Web Development",
+    "category": "Software & Web Development",
+    "level": "Beginner",
+    "duration": "90 Days",
+    "lessons": 41,
+    "rating": 4.8,
+    "students": 5004,
+    "price": 999,
+    "originalPrice": 2739,
+    "summary": "A practical, project-based path in full stack web development, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in full stack web development",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 9
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 8
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 8
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 8
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 8
+      }
+    ],
+    "slug": "full-stack-web-development",
+    "instructorName": "Ramesh Pillai",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-02",
+    "title": "Web Development",
+    "category": "Software & Web Development",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.7,
+    "students": 3861,
+    "price": 999,
+    "originalPrice": 2659,
+    "summary": "A practical, project-based path in web development, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in web development",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "web-development",
+    "instructorName": "Deepika Nair",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-03",
+    "title": "Python Development",
+    "category": "Software & Web Development",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.5,
+    "students": 3775,
+    "price": 999,
+    "originalPrice": 2559,
+    "summary": "A practical, project-based path in python development, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in python development",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "python-development",
+    "instructorName": "Aditi Rao",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-04",
+    "title": "Python Full Stack Development",
+    "category": "Software & Web Development",
+    "level": "Beginner",
+    "duration": "90 Days",
+    "lessons": 41,
+    "rating": 4.8,
+    "students": 1943,
+    "price": 999,
+    "originalPrice": 2669,
+    "summary": "A practical, project-based path in python full stack development, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in python full stack development",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 9
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 8
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 8
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 8
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 8
+      }
+    ],
+    "slug": "python-full-stack-development",
+    "instructorName": "Vikram Suresh",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-05",
+    "title": "Java Development",
+    "category": "Software & Web Development",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.9,
+    "students": 5168,
+    "price": 999,
+    "originalPrice": 2649,
+    "summary": "A practical, project-based path in java development, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in java development",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "java-development",
+    "instructorName": "Ramesh Pillai",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-06",
+    "title": "Java Full Stack Development",
+    "category": "Software & Web Development",
+    "level": "Beginner",
+    "duration": "90 Days",
+    "lessons": 41,
+    "rating": 4.6,
+    "students": 1048,
+    "price": 999,
+    "originalPrice": 2739,
+    "summary": "A practical, project-based path in java full stack development, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in java full stack development",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 9
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 8
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 8
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 8
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 8
+      }
+    ],
+    "slug": "java-full-stack-development",
+    "instructorName": "Deepika Nair",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-07",
+    "title": "Backend Development with Node.js",
+    "category": "Software & Web Development",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.8,
+    "students": 1183,
+    "price": 999,
+    "originalPrice": 2589,
+    "summary": "A practical, project-based path in backend development with node.js, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in backend development with node.js",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "backend-development-with-node-js",
+    "instructorName": "Aditi Rao",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-08",
+    "title": "PHP Development",
+    "category": "Software & Web Development",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.6,
+    "students": 2775,
+    "price": 999,
+    "originalPrice": 2459,
+    "summary": "A practical, project-based path in php development, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in php development",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "php-development",
+    "instructorName": "Vikram Suresh",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-09",
+    "title": "Mobile Application Development",
+    "category": "Software & Web Development",
+    "level": "Beginner",
+    "duration": "90 Days",
+    "lessons": 41,
+    "rating": 4.5,
+    "students": 3021,
+    "price": 999,
+    "originalPrice": 2599,
+    "summary": "A practical, project-based path in mobile application development, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in mobile application development",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 9
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 8
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 8
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 8
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 8
+      }
+    ],
+    "slug": "mobile-application-development",
+    "instructorName": "Ramesh Pillai",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-10",
+    "title": "QA & Software Testing",
+    "category": "Software & Web Development",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.7,
+    "students": 3924,
+    "price": 999,
+    "originalPrice": 2659,
+    "summary": "A practical, project-based path in qa & software testing, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in qa & software testing",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "qa-software-testing",
+    "instructorName": "Deepika Nair",
+    "status": "published"
+  },
+  {
+    "code": "EDU-SWD-11",
+    "title": "Software Engineering & Git/GitHub",
+    "category": "Software & Web Development",
+    "level": "Beginner",
+    "duration": "30 Days",
+    "lessons": 14,
+    "rating": 4.9,
+    "students": 2682,
+    "price": 499,
+    "originalPrice": 1129,
+    "summary": "A practical, project-based path in software engineering & git/github, built for the software & web development track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in software engineering & git/github",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 3
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 3
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 3
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 3
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 3
+      }
+    ],
+    "slug": "software-engineering-git-github",
+    "instructorName": "Aditi Rao",
+    "status": "published"
+  },
+  {
+    "code": "EDU-AIM-01",
+    "title": "AI & Machine Learning",
+    "category": "AI, Machine Learning & Generative AI",
+    "level": "Beginner",
+    "duration": "90 Days",
+    "lessons": 41,
+    "rating": 4.9,
+    "students": 1295,
+    "price": 999,
+    "originalPrice": 2299,
+    "summary": "A practical, project-based path in ai & machine learning, built for the ai, machine learning & generative ai track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in ai & machine learning",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 9
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 8
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 8
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 8
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 8
+      }
+    ],
+    "slug": "ai-machine-learning",
+    "instructorName": "Sanjana Iyer",
+    "status": "published"
+  },
+  {
+    "code": "EDU-AIM-02",
+    "title": "Generative AI",
+    "category": "AI, Machine Learning & Generative AI",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.8,
+    "students": 1764,
+    "price": 999,
+    "originalPrice": 2399,
+    "summary": "A practical, project-based path in generative ai, built for the ai, machine learning & generative ai track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in generative ai",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "generative-ai",
+    "instructorName": "Karthik Menon",
+    "status": "published"
+  },
+  {
+    "code": "EDU-AIM-03",
+    "title": "Machine Learning Foundations",
+    "category": "AI, Machine Learning & Generative AI",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.9,
+    "students": 1288,
+    "price": 999,
+    "originalPrice": 2209,
+    "summary": "A practical, project-based path in machine learning foundations, built for the ai, machine learning & generative ai track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in machine learning foundations",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "machine-learning-foundations",
+    "instructorName": "Sanjana Iyer",
+    "status": "published"
+  },
+  {
+    "code": "EDU-AIM-04",
+    "title": "Prompt Engineering & AI Automation",
+    "category": "AI, Machine Learning & Generative AI",
+    "level": "Beginner",
+    "duration": "45 Days",
+    "lessons": 20,
+    "rating": 4.9,
+    "students": 1868,
+    "price": 799,
+    "originalPrice": 2079,
+    "summary": "A practical, project-based path in prompt engineering & ai automation, built for the ai, machine learning & generative ai track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in prompt engineering & ai automation",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 4
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 4
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 4
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 4
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 4
+      }
+    ],
+    "slug": "prompt-engineering-ai-automation",
+    "instructorName": "Karthik Menon",
+    "status": "published"
+  },
+  {
+    "code": "EDU-AIM-05",
+    "title": "AI Tools & Productivity",
+    "category": "AI, Machine Learning & Generative AI",
+    "level": "Beginner",
+    "duration": "30 Days",
+    "lessons": 14,
+    "rating": 4.5,
+    "students": 704,
+    "price": 499,
+    "originalPrice": 1289,
+    "summary": "A practical, project-based path in ai tools & productivity, built for the ai, machine learning & generative ai track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in ai tools & productivity",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 3
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 3
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 3
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 3
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 3
+      }
+    ],
+    "slug": "ai-tools-productivity",
+    "instructorName": "Sanjana Iyer",
+    "status": "published"
+  },
+  {
+    "code": "EDU-DSB-01",
+    "title": "Data Science & Analytics",
+    "category": "Data Science & Business Analytics",
+    "level": "Beginner",
+    "duration": "90 Days",
+    "lessons": 41,
+    "rating": 4.8,
+    "students": 4596,
+    "price": 999,
+    "originalPrice": 2449,
+    "summary": "A practical, project-based path in data science & analytics, built for the data science & business analytics track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in data science & analytics",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 9
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 8
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 8
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 8
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 8
+      }
+    ],
+    "slug": "data-science-analytics",
+    "instructorName": "Priya Nambiar",
+    "status": "published"
+  },
+  {
+    "code": "EDU-DSB-02",
+    "title": "Data Analytics with Python",
+    "category": "Data Science & Business Analytics",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.7,
+    "students": 1142,
+    "price": 999,
+    "originalPrice": 2419,
+    "summary": "A practical, project-based path in data analytics with python, built for the data science & business analytics track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in data analytics with python",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "data-analytics-with-python",
+    "instructorName": "Karthik Menon",
+    "status": "published"
+  },
+  {
+    "code": "EDU-DSB-03",
+    "title": "Power BI & Business Intelligence",
+    "category": "Data Science & Business Analytics",
+    "level": "Beginner",
+    "duration": "45 Days",
+    "lessons": 20,
+    "rating": 4.7,
+    "students": 1944,
+    "price": 799,
+    "originalPrice": 2209,
+    "summary": "A practical, project-based path in power bi & business intelligence, built for the data science & business analytics track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in power bi & business intelligence",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 4
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 4
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 4
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 4
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 4
+      }
+    ],
+    "slug": "power-bi-business-intelligence",
+    "instructorName": "Priya Nambiar",
+    "status": "published"
+  },
+  {
+    "code": "EDU-DSB-04",
+    "title": "Advanced Excel & Business Analytics",
+    "category": "Data Science & Business Analytics",
+    "level": "Beginner",
+    "duration": "30 Days",
+    "lessons": 14,
+    "rating": 4.7,
+    "students": 4202,
+    "price": 499,
+    "originalPrice": 1259,
+    "summary": "A practical, project-based path in advanced excel & business analytics, built for the data science & business analytics track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in advanced excel & business analytics",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 3
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 3
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 3
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 3
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 3
+      }
+    ],
+    "slug": "advanced-excel-business-analytics",
+    "instructorName": "Karthik Menon",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CDC-01",
+    "title": "AWS Cloud Computing",
+    "category": "Cloud, DevOps & Cybersecurity",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.8,
+    "students": 5116,
+    "price": 999,
+    "originalPrice": 2539,
+    "summary": "A practical, project-based path in aws cloud computing, built for the cloud, devops & cybersecurity track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in aws cloud computing",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "aws-cloud-computing",
+    "instructorName": "Farhan Sheikh",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CDC-02",
+    "title": "Cloud Computing Foundations",
+    "category": "Cloud, DevOps & Cybersecurity",
+    "level": "Beginner",
+    "duration": "45 Days",
+    "lessons": 20,
+    "rating": 4.8,
+    "students": 1884,
+    "price": 799,
+    "originalPrice": 1979,
+    "summary": "A practical, project-based path in cloud computing foundations, built for the cloud, devops & cybersecurity track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in cloud computing foundations",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 4
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 4
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 4
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 4
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 4
+      }
+    ],
+    "slug": "cloud-computing-foundations",
+    "instructorName": "Neha Kulkarni",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CDC-03",
+    "title": "DevOps & CI/CD Foundations",
+    "category": "Cloud, DevOps & Cybersecurity",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.7,
+    "students": 1309,
+    "price": 999,
+    "originalPrice": 2579,
+    "summary": "A practical, project-based path in devops & ci/cd foundations, built for the cloud, devops & cybersecurity track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in devops & ci/cd foundations",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "devops-ci-cd-foundations",
+    "instructorName": "Farhan Sheikh",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CDC-04",
+    "title": "Cloud & DevOps Foundations",
+    "category": "Cloud, DevOps & Cybersecurity",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.5,
+    "students": 589,
+    "price": 999,
+    "originalPrice": 2499,
+    "summary": "A practical, project-based path in cloud & devops foundations, built for the cloud, devops & cybersecurity track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in cloud & devops foundations",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "cloud-devops-foundations",
+    "instructorName": "Neha Kulkarni",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CDC-05",
+    "title": "Cybersecurity & SOC Analyst",
+    "category": "Cloud, DevOps & Cybersecurity",
+    "level": "Beginner",
+    "duration": "90 Days",
+    "lessons": 41,
+    "rating": 4.7,
+    "students": 1724,
+    "price": 999,
+    "originalPrice": 2479,
+    "summary": "A practical, project-based path in cybersecurity & soc analyst, built for the cloud, devops & cybersecurity track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in cybersecurity & soc analyst",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 9
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 8
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 8
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 8
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 8
+      }
+    ],
+    "slug": "cybersecurity-soc-analyst",
+    "instructorName": "Farhan Sheikh",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CDC-06",
+    "title": "Ethical Hacking & Cybersecurity",
+    "category": "Cloud, DevOps & Cybersecurity",
+    "level": "Beginner",
+    "duration": "90 Days",
+    "lessons": 41,
+    "rating": 4.5,
+    "students": 1916,
+    "price": 999,
+    "originalPrice": 2779,
+    "summary": "A practical, project-based path in ethical hacking & cybersecurity, built for the cloud, devops & cybersecurity track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in ethical hacking & cybersecurity",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 9
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 8
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 8
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 8
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 8
+      }
+    ],
+    "slug": "ethical-hacking-cybersecurity",
+    "instructorName": "Neha Kulkarni",
+    "status": "published"
+  },
+  {
+    "code": "EDU-DDM-01",
+    "title": "UI/UX Design",
+    "category": "Design & Digital Marketing",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.7,
+    "students": 3163,
+    "price": 999,
+    "originalPrice": 2439,
+    "summary": "A practical, project-based path in ui/ux design, built for the design & digital marketing track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in ui/ux design",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "ui-ux-design",
+    "instructorName": "Arjun Verma",
+    "status": "published"
+  },
+  {
+    "code": "EDU-DDM-02",
+    "title": "Graphic Design & Visual Communication",
+    "category": "Design & Digital Marketing",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.5,
+    "students": 2665,
+    "price": 999,
+    "originalPrice": 2309,
+    "summary": "A practical, project-based path in graphic design & visual communication, built for the design & digital marketing track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in graphic design & visual communication",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "graphic-design-visual-communication",
+    "instructorName": "Ritu Chawla",
+    "status": "published"
+  },
+  {
+    "code": "EDU-DDM-03",
+    "title": "Digital Marketing & Growth",
+    "category": "Design & Digital Marketing",
+    "level": "Intermediate",
+    "duration": "60 Days",
+    "lessons": 27,
+    "rating": 4.6,
+    "students": 2423,
+    "price": 999,
+    "originalPrice": 2659,
+    "summary": "A practical, project-based path in digital marketing & growth, built for the design & digital marketing track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in digital marketing & growth",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 6
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 6
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 5
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 5
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 5
+      }
+    ],
+    "slug": "digital-marketing-growth",
+    "instructorName": "Arjun Verma",
+    "status": "published"
+  },
+  {
+    "code": "EDU-DDM-04",
+    "title": "SEO & Search Marketing",
+    "category": "Design & Digital Marketing",
+    "level": "Beginner",
+    "duration": "45 Days",
+    "lessons": 20,
+    "rating": 4.7,
+    "students": 4436,
+    "price": 799,
+    "originalPrice": 2009,
+    "summary": "A practical, project-based path in seo & search marketing, built for the design & digital marketing track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in seo & search marketing",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 4
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 4
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 4
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 4
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 4
+      }
+    ],
+    "slug": "seo-search-marketing",
+    "instructorName": "Ritu Chawla",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CCP-01",
+    "title": "Professional English & Communication Skills",
+    "category": "Career, Communication & Professional Skills",
+    "level": "Beginner",
+    "duration": "45 Days",
+    "lessons": 20,
+    "rating": 4.5,
+    "students": 1105,
+    "price": 599,
+    "originalPrice": 1639,
+    "summary": "A practical, project-based path in professional english & communication skills, built for the career, communication & professional skills track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in professional english & communication skills",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 4
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 4
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 4
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 4
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 4
+      }
+    ],
+    "slug": "professional-english-communication-skills",
+    "instructorName": "Arjun Verma",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CCP-02",
+    "title": "Interview & Career Readiness",
+    "category": "Career, Communication & Professional Skills",
+    "level": "Beginner",
+    "duration": "30 Days",
+    "lessons": 14,
+    "rating": 4.7,
+    "students": 4030,
+    "price": 499,
+    "originalPrice": 1189,
+    "summary": "A practical, project-based path in interview & career readiness, built for the career, communication & professional skills track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in interview & career readiness",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 3
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 3
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 3
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 3
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 3
+      }
+    ],
+    "slug": "interview-career-readiness",
+    "instructorName": "Meera Joshi",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CCP-03",
+    "title": "Freelancing & Remote Work Skills",
+    "category": "Career, Communication & Professional Skills",
+    "level": "Beginner",
+    "duration": "30 Days",
+    "lessons": 14,
+    "rating": 4.6,
+    "students": 809,
+    "price": 499,
+    "originalPrice": 1139,
+    "summary": "A practical, project-based path in freelancing & remote work skills, built for the career, communication & professional skills track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in freelancing & remote work skills",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 3
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 3
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 3
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 3
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 3
+      }
+    ],
+    "slug": "freelancing-remote-work-skills",
+    "instructorName": "Arjun Verma",
+    "status": "published"
+  },
+  {
+    "code": "EDU-CCP-04",
+    "title": "Typing & Computer Productivity",
+    "category": "Career, Communication & Professional Skills",
+    "level": "Beginner",
+    "duration": "30 Days",
+    "lessons": 14,
+    "rating": 4.7,
+    "students": 3045,
+    "price": 499,
+    "originalPrice": 1349,
+    "summary": "A practical, project-based path in typing & computer productivity, built for the career, communication & professional skills track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in typing & computer productivity",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 3
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 3
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 3
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 3
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 3
+      }
+    ],
+    "slug": "typing-computer-productivity",
+    "instructorName": "Meera Joshi",
+    "status": "published"
+  },
+  {
+    "code": "EDU-MCB-01",
+    "title": "NEET Mentorship Program",
+    "category": "Mentorship, Certification & Business",
+    "level": "Beginner",
+    "duration": "90 Days",
+    "lessons": 41,
+    "rating": 4.9,
+    "students": 3136,
+    "price": 999,
+    "originalPrice": 2689,
+    "summary": "A practical, project-based path in neet mentorship program, built for the mentorship, certification & business track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in neet mentorship program",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 9
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 8
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 8
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 8
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 8
+      }
+    ],
+    "slug": "neet-mentorship-program",
+    "instructorName": "Meera Joshi",
+    "status": "published"
+  },
+  {
+    "code": "EDU-MCB-02",
+    "title": "Skill Assessment & Certification",
+    "category": "Mentorship, Certification & Business",
+    "level": "Beginner",
+    "duration": "1 - 7 Days",
+    "lessons": 6,
+    "rating": 4.7,
+    "students": 4357,
+    "price": 299,
+    "originalPrice": 999,
+    "summary": "A practical, project-based path in skill assessment & certification, built for the mentorship, certification & business track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in skill assessment & certification",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 3
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 3
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 3
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 3
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 3
+      }
+    ],
+    "slug": "skill-assessment-certification",
+    "instructorName": "Dr. Sameer Gupta",
+    "status": "published"
+  },
+  {
+    "code": "EDU-MCB-03",
+    "title": "Business Development & Sales Fundamentals",
+    "category": "Mentorship, Certification & Business",
+    "level": "Beginner",
+    "duration": "45 Days",
+    "lessons": 20,
+    "rating": 4.6,
+    "students": 3540,
+    "price": 799,
+    "originalPrice": 2029,
+    "summary": "A practical, project-based path in business development & sales fundamentals, built for the mentorship, certification & business track with live mentorship and career support.",
+    "outcomes": [
+      "Build real, portfolio-ready projects in business development & sales fundamentals",
+      "Get hands-on mentorship and structured live training",
+      "Earn a certification and career support on completion"
+    ],
+    "syllabus": [
+      {
+        "title": "Foundations & Setup",
+        "lessons": 4
+      },
+      {
+        "title": "Core Concepts & Hands-on Practice",
+        "lessons": 4
+      },
+      {
+        "title": "Applied Projects",
+        "lessons": 4
+      },
+      {
+        "title": "Real-World Case Studies",
+        "lessons": 4
+      },
+      {
+        "title": "Capstone Project & Career Prep",
+        "lessons": 4
+      }
+    ],
+    "slug": "business-development-sales-fundamentals",
+    "instructorName": "Meera Joshi",
+    "status": "published"
+  },
   {
     "slug": "react-professional",
     "code": "EDU-104",
@@ -100,7 +1694,7 @@ export const COURSES_SEED = [
     "students": 4520,
     "price": 5499,
     "originalPrice": 8999,
-    "summary": "Go from zero to a deployed full stack app \u2014 frontend, backend, database and hosting, all in one path.",
+    "summary": "Go from zero to a deployed full stack app — frontend, backend, database and hosting, all in one path.",
     "outcomes": [
       "Build responsive frontends with HTML, CSS, JavaScript and React",
       "Design REST APIs and connect them to a database",
@@ -126,92 +1720,6 @@ export const COURSES_SEED = [
       {
         "title": "Deployment & Capstone Project",
         "lessons": 18
-      }
-    ],
-    "status": "published"
-  },
-  {
-    "slug": "python-full-stack-development",
-    "code": "EDU-312",
-    "title": "Python Full Stack Development",
-    "category": "Full-Stack Development",
-    "level": "Intermediate",
-    "instructorName": "Ramesh Pillai",
-    "duration": "16 weeks",
-    "lessons": 80,
-    "rating": 4.7,
-    "students": 3105,
-    "price": 5299,
-    "originalPrice": 8499,
-    "summary": "Build full stack applications using Python, Django/FastAPI on the backend and React on the frontend.",
-    "outcomes": [
-      "Build REST APIs with Django REST Framework or FastAPI",
-      "Connect a React frontend to a Python backend",
-      "Handle authentication, deployment and production configs"
-    ],
-    "syllabus": [
-      {
-        "title": "Python & Django Foundations",
-        "lessons": 16
-      },
-      {
-        "title": "REST APIs with DRF / FastAPI",
-        "lessons": 16
-      },
-      {
-        "title": "Frontend with React",
-        "lessons": 16
-      },
-      {
-        "title": "Databases & Authentication",
-        "lessons": 14
-      },
-      {
-        "title": "Deployment & Capstone Project",
-        "lessons": 18
-      }
-    ],
-    "status": "published"
-  },
-  {
-    "slug": "java-full-stack-development",
-    "code": "EDU-318",
-    "title": "Java Full Stack Development",
-    "category": "Full-Stack Development",
-    "level": "Intermediate",
-    "instructorName": "Deepika Nair",
-    "duration": "18 weeks",
-    "lessons": 88,
-    "rating": 4.7,
-    "students": 2890,
-    "price": 5599,
-    "originalPrice": 8999,
-    "summary": "Master enterprise-grade full stack development using Java, Spring Boot and React.",
-    "outcomes": [
-      "Build REST APIs with Spring Boot",
-      "Design relational schemas and integrate with Spring Data JPA",
-      "Build and connect a React frontend to a Java backend"
-    ],
-    "syllabus": [
-      {
-        "title": "Core Java & OOP",
-        "lessons": 16
-      },
-      {
-        "title": "Spring Boot & REST APIs",
-        "lessons": 20
-      },
-      {
-        "title": "Databases with Spring Data JPA",
-        "lessons": 14
-      },
-      {
-        "title": "Frontend with React",
-        "lessons": 16
-      },
-      {
-        "title": "Deployment & Capstone Project",
-        "lessons": 22
       }
     ],
     "status": "published"
@@ -315,7 +1823,7 @@ export const COURSES_SEED = [
     "students": 3312,
     "price": 4699,
     "originalPrice": 7499,
-    "summary": "End-to-end data science workflow \u2014 statistics, Python, machine learning and deployment.",
+    "summary": "End-to-end data science workflow — statistics, Python, machine learning and deployment.",
     "outcomes": [
       "Apply statistics and hypothesis testing to real datasets",
       "Build and evaluate predictive models with scikit-learn",
@@ -358,7 +1866,7 @@ export const COURSES_SEED = [
     "students": 2986,
     "price": 4299,
     "originalPrice": 6499,
-    "summary": "Core ML concepts and workflows \u2014 from feature engineering to model evaluation \u2014 with hands-on projects.",
+    "summary": "Core ML concepts and workflows — from feature engineering to model evaluation — with hands-on projects.",
     "outcomes": [
       "Build and evaluate classification and regression models",
       "Engineer features that actually move model performance",
@@ -401,7 +1909,7 @@ export const COURSES_SEED = [
     "students": 2140,
     "price": 4499,
     "originalPrice": 6999,
-    "summary": "Core AI concepts \u2014 search, neural networks, NLP basics and generative AI \u2014 with hands-on labs.",
+    "summary": "Core AI concepts — search, neural networks, NLP basics and generative AI — with hands-on labs.",
     "outcomes": [
       "Understand core AI techniques and where to apply them",
       "Build and train basic neural networks",
@@ -444,7 +1952,7 @@ export const COURSES_SEED = [
     "students": 1680,
     "price": 3599,
     "originalPrice": 5499,
-    "summary": "Core security concepts \u2014 network security, cryptography basics and threat modeling \u2014 for a strong foundation.",
+    "summary": "Core security concepts — network security, cryptography basics and threat modeling — for a strong foundation.",
     "outcomes": [
       "Identify common attack vectors and how to defend against them",
       "Apply core cryptography and network security principles",
@@ -487,7 +1995,7 @@ export const COURSES_SEED = [
     "students": 1240,
     "price": 4599,
     "originalPrice": 6999,
-    "summary": "Hands-on penetration testing \u2014 reconnaissance, exploitation and reporting \u2014 in a legal lab environment.",
+    "summary": "Hands-on penetration testing — reconnaissance, exploitation and reporting — in a legal lab environment.",
     "outcomes": [
       "Run reconnaissance and vulnerability scans on lab targets",
       "Exploit common web and network vulnerabilities safely",
@@ -530,7 +2038,7 @@ export const COURSES_SEED = [
     "students": 2015,
     "price": 4399,
     "originalPrice": 6799,
-    "summary": "CI/CD pipelines, containerization and infrastructure as code \u2014 the DevOps toolkit used in production teams.",
+    "summary": "CI/CD pipelines, containerization and infrastructure as code — the DevOps toolkit used in production teams.",
     "outcomes": [
       "Build CI/CD pipelines that deploy safely and automatically",
       "Containerize applications with Docker and orchestrate with Kubernetes",
@@ -603,4 +2111,4 @@ export const COURSES_SEED = [
     ],
     "status": "published"
   }
-]
+];
